@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.eformsign.com/plugins/jquery/jquery.min.js"></script>
+    <script src="https://www.eformsign.com/lib/js/efs_embedded.js"></script>
+</head>
+<body>
+    <h2>Hello Django</h2>
+
+
+    <form method="POST" class="post-form">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="OK"/>
+    </form>
+    
+
+    
+</body>
+</html>
+
+
+
+
+
